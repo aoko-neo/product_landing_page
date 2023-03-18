@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.hero {
+    background-color: #2C3639;
+    padding: 16px;
+}
+.logo {
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+.hero-1 {
+    display: flex;
+    justify-content: space-between;
+    color: #A27B5C;
+}
+
+.navbar {
+    display: flex;
+    gap: 16px;
+}
+
+.class {
+    width: 200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.hero-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text > p {
+    width: 400px;
+    height: 100px;
+}
+
+.hero-image > img {
+    width: 400px;
+    height: 450px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #A27B5C;
+}
