@@ -7,15 +7,18 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 .hero {
-    background-color: #2C3639;
+    background-color: #411530;
     padding: 24px;
-    color: #FF9F29;
+    color: #F5C7A9;
 }
 .logo {
-    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 42px;
+    font-weight: 900;
 }
+    
 
 .hero-1 {
     display: flex;
@@ -29,7 +32,7 @@ body {
 
 ul {
     list-style-type: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .hero-2 {
@@ -38,35 +41,33 @@ ul {
 }
 
 .hero-text > h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: cursive;
     font-weight: 900;
     font-size: 32px;
 }
 
 .hero-text > p {
     width: 400px;
-    height: 100px;
-    font-family: 'Roboto', sans-serif;
+    height: 100p;
     font-weight: normal;
 }
 
 .hero-image > img {
-    padding-right: 100px;
-    width: 550px;
+    width: 600px;
     height: 400px;
 }
 
 button {
     width: 100px;
     height: 50px;
-    border-radius: 10px;
-    background-color: #86C8BC;
+    border-radius: 15px;
+    background-color: #DDDDDD;
     font-size: 16px;
     color: black;
 }
 
 .product {
-    background-color: #DCD7C9;
+    background-color: #F5C7A9;
     display: flex;
     justify-content: space-evenly;
     padding: 50px 0;
@@ -87,11 +88,11 @@ button {
 
 .testimonial {
     padding: 32px 8px;
-    background-color: #CFB997;
+    background-color: #EFEFEF;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    color: rgb(0, 9, 17);
+    color: black;
 }
 
 .service {
@@ -100,7 +101,7 @@ button {
 }
 
 .contact {
-    background-color: #DCD7C9;
+    background-color: #F5C7A9;
     padding: 50px ;
     display: flex;
     align-items: center;
@@ -108,14 +109,14 @@ button {
 }
 
 .signup {
-    background-color: #86C8BC;
+    background-color: #B2B2B2;
     width: 800px;
-    padding: 16px 32px;
-    border-radius: 5px;
+    padding: 16px 24px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: rgb(0, 9, 17);
+    color: #000;
 }
 
 .call {
@@ -130,7 +131,8 @@ h4 {
 }
 
 .footer {
-    background-color: #2C3639;
+    background-color: #411530;
     text-align: center;
-    color: #FF9F29;
+    text-decoration: underline;
+    color: #F5C7A9;
 }
